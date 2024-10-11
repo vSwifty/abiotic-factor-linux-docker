@@ -22,7 +22,6 @@ if [ ! -d "/server/AbioticFactor/Binaries/Win64" ] || [[ $AutoUpdate == "true" ]
     +@sSteamCmdForcePlatformType windows \
     +force_install_dir /server \
     +login anonymous \
-    +app_update 2857200 validate \
     +quit
 fi
 
